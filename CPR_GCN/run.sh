@@ -1,0 +1,9 @@
+python train_gpr_gcn.py --exp=exp/MLP32_GCN32/CV0 --cv=0 --cv_max=5 --model=cpr_gcn --mlp_hidden=64 --gcn_features=128 --epoch=101
+python train_gpr_gcn.py --exp=exp/MLP32_GCN32/CV1 --cv=1 --cv_max=5 --model=cpr_gcn --mlp_hidden=32 --gcn_features=32 --epoch=101
+python train_gpr_gcn.py --exp=exp/MLP32_GCN32/CV2 --cv=2 --cv_max=5 --model=cpr_gcn --mlp_hidden=32 --gcn_features=32 --epoch=101
+python train_gpr_gcn.py --exp=exp/MLP32_GCN32/CV3 --cv=3 --cv_max=5 --model=cpr_gcn --mlp_hidden=32 --gcn_features=32 --epoch=101
+python train_gpr_gcn.py --exp=exp/MLP32_GCN32/CV4 --cv=4 --cv_max=5 --model=cpr_gcn --mlp_hidden=32 --gcn_features=32 --epoch=101
+python train_gpr_gcn.py --exp=exp/MLP32_GCN64/CV0 --cv=0 --cv_max=5 --model=cpr_gcn --mlp_hidden=32 --gcn_features=64 --epoch=101
+python train_gpr_gcn.py --exp=exp/MLP32_GCN64/CV1 --cv=1 --cv_max=5 --model=cpr_gcn --mlp_hidden=32 --gcn_features=64 --epoch=101
+python train_gpr_gcn.py --exp=exp/MLP32_GCN64/CV2 --cv=2 --cv_max=5 --model=cpr_gcn --mlp_hidden=32 --gcn_features=64 --epoch=101
+python train_gpr_gcn.py --exp=exp/MLP32_GCN64/CV3 --cv=3 --cv_max=5 --model=cpr_gcn --mlp_hidden=32 --gcn_features=64 --epoch=101

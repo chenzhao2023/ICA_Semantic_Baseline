@@ -1,0 +1,5 @@
+python train_gpr_gcn.py --exp=exp/MLP64_GCN128/CV0 --cv=0 --cv_max=5 --model=cpr_gcn --mlp_hidden=64 --gcn_features=128 --epoch=101 --device=cuda:0 --train=train
+python train_gpr_gcn.py --exp=exp/MLP64_GCN128/CV1 --cv=1 --cv_max=5 --model=cpr_gcn --mlp_hidden=64 --gcn_features=128 --epoch=101 --device=cuda:0 --train=train
+python train_gpr_gcn.py --exp=exp/MLP64_GCN128/CV3 --cv=3 --cv_max=5 --model=cpr_gcn --mlp_hidden=64 --gcn_features=128 --epoch=101 --device=cuda:0 --train=train
+python train_gpr_gcn.py --exp=exp/MLP64_GCN128/CV2 --cv=2 --cv_max=5 --model=cpr_gcn --mlp_hidden=64 --gcn_features=128 --epoch=101 --device=cuda:0 --train=train
+python train_gpr_gcn.py --exp=exp/MLP64_GCN128/CV4 --cv=4 --cv_max=5 --model=cpr_gcn --mlp_hidden=64 --gcn_features=128 --epoch=101 --device=cuda:0 --train=train
